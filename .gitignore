@@ -1,0 +1,13 @@
+shiny
+*.o
+*.cm[iox]
+*.swp
+*.bmp
+
+shiny-examples-master
+shiny-grid-svg-master
+sources
+
+*.mp4
+shiny-app-demo/.RData
+shiny-app-demo/.Rhistory
