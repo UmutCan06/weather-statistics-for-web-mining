@@ -1,0 +1,161 @@
+<a href="?m=ADANA">Adana</a> |
+    
+        <a href="?m=ADIYAMAN">Adıyaman</a> |
+    
+        <a href="?m=AFYONKARAHISAR">Afyonkarahisar</a> |
+    
+        <a href="?m=AGRI">Ağrı</a> |
+    
+        <a href="?m=AKSARAY">Aksaray</a> |
+    
+        <a href="?m=AMASYA">Amasya</a> |
+    
+        <a href="?m=ANKARA">Ankara</a> |
+    
+        <a href="?m=ANTALYA">Antalya</a> |
+    
+        <a href="?m=ARDAHAN">Ardahan</a> |
+    
+        <a href="?m=ARTVIN">Artvin</a> |
+    
+        <a href="?m=AYDIN">Aydın</a> |
+    
+        <a href="?m=BALIKESIR">Balıkesir</a> |
+    
+        <a href="?m=BARTIN">Bartın</a> |
+    
+        <a href="?m=BATMAN">Batman</a> |
+    
+        <a href="?m=BAYBURT">Bayburt</a> |
+    
+        <a href="?m=BILECIK">Bilecik</a> |
+    
+        <a href="?m=BINGOL">Bingöl</a> |
+    
+        <a href="?m=BITLIS">Bitlis</a> |
+    
+        <a href="?m=BOLU">Bolu</a> |
+    
+        <a href="?m=BURDUR">Burdur</a> |
+    
+        <a href="?m=BURSA">Bursa</a> |
+    
+        <a href="?m=CANAKKALE">Çanakkale</a> |
+    
+        <a href="?m=CANKIRI">Çankırı</a> |
+    
+        <a href="?m=CORUM">Çorum</a> |
+    
+        <a href="?m=DENIZLI">Denizli</a> |
+    
+        <a href="?m=DIYARBAKIR">Diyarbakır</a> |
+    
+        <a href="?m=DUZCE">Düzce</a> |
+    
+        <a href="?m=EDIRNE">Edirne</a> |
+    
+        <a href="?m=ELAZIG">Elazığ</a> |
+    
+        <a href="?m=ERZINCAN">Erzincan</a> |
+    
+        <a href="?m=ERZURUM">Erzurum</a> |
+    
+        <a href="?m=ESKISEHIR">Eskişehir</a> |
+    
+        <a href="?m=GAZIANTEP">Gaziantep</a> |
+    
+        <a href="?m=GIRESUN">Giresun</a> |
+    
+        <a href="?m=GUMUSHANE">Gümüşhane</a> |
+    
+        <a href="?m=HAKKARI">Hakkari</a> |
+    
+        <a href="?m=HATAY">Hatay</a> |
+    
+        <a href="?m=IGDIR">Iğdır</a> |
+    
+        <a href="?m=ISPARTA">Isparta</a> |
+    
+        <a href="?m=ISTANBUL">İstanbul</a> |
+    
+        <a href="?m=IZMIR">İzmir</a> |
+    
+        <a href="?m=K.MARAS">Kahramanmaraş</a> |
+    
+        <a href="?m=KARABUK">Karabük</a> |
+    
+        <a href="?m=KARAMAN">Karaman</a> |
+    
+        <a href="?m=KARS">Kars</a> |
+    
+        <a href="?m=KASTAMONU">Kastamonu</a> |
+    
+        <a href="?m=KAYSERI">Kayseri</a> |
+    
+        <a href="?m=KIRIKKALE">Kırıkkale</a> |
+    
+        <a href="?m=KIRKLARELI">Kırklareli</a> |
+    
+        <a href="?m=KIRSEHIR">Kırşehir</a> |
+    
+        <a href="?m=KILIS">Kilis</a> |
+    
+        <a href="?m=KOCAELI">Kocaeli</a> |
+    
+        <a href="?m=KONYA">Konya</a> |
+    
+        <a href="?m=KUTAHYA">Kütahya</a> |
+    
+        <a href="?m=MALATYA">Malatya</a> |
+    
+        <a href="?m=MANISA">Manisa</a> |
+    
+        <a href="?m=MARDIN">Mardin</a> |
+    
+        <a href="?m=MERSIN">Mersin</a> |
+    
+        <a href="?m=MUGLA">Muğla</a> |
+    
+        <a href="?m=MUS">Muş</a> |
+    
+        <a href="?m=NEVSEHIR">Nevşehir</a> |
+    
+        <a href="?m=NIGDE">Niğde</a> |
+    
+        <a href="?m=ORDU">Ordu</a> |
+    
+        <a href="?m=OSMANIYE">Osmaniye</a> |
+    
+        <a href="?m=RIZE">Rize</a> |
+    
+        <a href="?m=SAKARYA">Sakarya</a> |
+    
+        <a href="?m=SAMSUN">Samsun</a> |
+    
+        <a href="?m=SIIRT">Siirt</a> |
+    
+        <a href="?m=SINOP">Sinop</a> |
+    
+        <a href="?m=SIVAS">Sivas</a> |
+    
+        <a href="?m=SANLIURFA">Şanlıurfa</a> |
+    
+        <a href="?m=SIRNAK">Şırnak</a> |
+    
+        <a href="?m=TEKIRDAG">Tekirdağ</a> |
+    
+        <a href="?m=TOKAT">Tokat</a> |
+    
+        <a href="?m=TRABZON">Trabzon</a> |
+    
+        <a href="?m=TUNCELI">Tunceli</a> |
+    
+        <a href="?m=USAK">Uşak</a> |
+    
+        <a href="?m=VAN">Van</a> |
+    
+        <a href="?m=YALOVA">Yalova</a> |
+    
+        <a href="?m=YOZGAT">Yozgat</a> |
+    
+        <a href="?m=ZONGULDAK">Zonguldak</a> |
