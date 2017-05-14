@@ -16,7 +16,7 @@ package.check <- lapply(packages, FUN = function(x) {
 ##################################################
 
 # Getting Cities and URLs
-URL <- paste("https://www.mgm.gov.tr/veridegerlendirme/il-ve-ilceler-istatistik.aspx?m=ADANA")
+URL <- paste("https://www.mgm.gov.tr/veridegerlendirme/il-ve-ilceler-istatistik.aspx")
 raw.html <- read_html(URL)
 
 sehirler.div <- html_nodes(raw.html , ".kk_div1 a" )
