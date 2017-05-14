@@ -11,3 +11,6 @@ sources
 *.mp4
 shiny-app-demo/.RData
 shiny-app-demo/.Rhistory
+
+*.RData
+*.Rhistory
