@@ -15,7 +15,7 @@ function svgturkiyeharitasi() {
     var iladi = $(this).parent().data("iladi");
     var plakakodu = $(this).parent().data("plakakodu");
     var alankodu = $(this).parent().data("alankodu");
-    window.location = "#" + ilid + "-" + plakakodu;
+    window.location = "?il=" + ilid;
     $("#city").val(iladi);
   });
 }

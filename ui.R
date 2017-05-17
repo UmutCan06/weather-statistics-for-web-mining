@@ -22,7 +22,7 @@ fluidPage(
     
     # Sidebar with a slider input
     sidebarPanel(
-      textInput(inputId = "city", label = "Your city choice is ", placeholder = "Select or Enter a City"),
+      textInput(inputId = "city", label = "Your city choice is ", placeholder = "Select a City"),
       selectizeInput(inputId = "stats_type", label = "Select a Statistics Type", vars)
     ),
     
@@ -36,7 +36,8 @@ fluidPage(
   ),
   
   mainPanel(
-    tableOutput("outputTable")
+    textOutput(outputId = "outputFor"),
+    tableOutput(outputId = "outputTable")
     # dataTableOutput("outputTable")
   )
 )

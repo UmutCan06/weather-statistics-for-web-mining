@@ -27,7 +27,7 @@ sehir.url <- gsub("m=", "", sehir.url, fixed = TRUE)
 sehir.url <- gsub("?", "", sehir.url, fixed = TRUE)
 
 sehir.info.df <- data.frame(c(1:length(sehir.url)), sehir.adi, sehir.url)
-colnames(sehir.info.df) <- c("id", "sehir", "url")
+colnames(sehir.info.df) <- c("id", "sehir", "mgm_url")
 write.csv(sehir.info.df, "data/Sehir.csv", row.names = FALSE)
 
 ##################################################
