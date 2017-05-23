@@ -40,7 +40,7 @@ GetWeatherStatsForTurkey <- function(sehirurl) {
   
   # Manupilating DataFrame
   TableSehir <- TableSehir[-c(1,8), ]
-  colnames(TableSehir) <- c("ADANA", "OCAK", "SUBAT", "MART", "NISAN", "MAYIS", "HAZIRAN", "TEMMUZ", "AGUSTOS", "EYLUL", "EKIM", "KASIM", "ARALIK", "YILLIK")
+  colnames(TableSehir) <- c("SEHIR", "OCAK", "SUBAT", "MART", "NISAN", "MAYIS", "HAZIRAN", "TEMMUZ", "AGUSTOS", "EYLUL", "EKIM", "KASIM", "ARALIK", "YILLIK")
   TableSehir[1] <- c("Ortalama Sicaklik", "Ortalama En Yuksek Sicaklik", "Ortalama En Dusuk Sicaklik", "Ortalama Guneslenme Suresi", "Ortalama Yagisli Gun Sayisi", "Aylik Toplam Yagis Mik. Ort.", "En Yuksek Sicaklik","En Dusuk Sicaklik")
   
   # convert all numeric data from char to numeric
@@ -137,12 +137,24 @@ Aylik.Toplam.Yagis.Mik.Ort <- data.frame(c(1:length(Aylik.Toplam.Yagis.Mik.Ort[,
 colnames(Aylik.Toplam.Yagis.Mik.Ort) <- c("ID", colnames(Aylik.Toplam.Yagis.Mik.Ort)[2:length(Aylik.Toplam.Yagis.Mik.Ort)])
 write.csv(Aylik.Toplam.Yagis.Mik.Ort, "data/Aylik.Toplam.Yagis.Mik.Ort.csv", row.names = FALSE)
 
-En.Yuksek.Sicaklik <- data.frame(c(1:length(En.Yuksek.Sicaklik[,1])), En.Yuksek.Sicaklik)
-colnames(En.Yuksek.Sicaklik) <- c("ID", colnames(En.Yuksek.Sicaklik)[2:length(En.Yuksek.Sicaklik)])
-write.csv(En.Yuksek.Sicaklik, "data/En.Yuksek.Sicaklik.csv", row.names = FALSE)
-
-En.Dusuk.Sicaklik <- data.frame(c(1:length(En.Dusuk.Sicaklik[,1])), En.Dusuk.Sicaklik)
-colnames(En.Dusuk.Sicaklik) <- c("ID", colnames(En.Dusuk.Sicaklik)[2:length(En.Dusuk.Sicaklik)])
-write.csv(En.Dusuk.Sicaklik, "data/En.Dusuk.Sicaklik.csv", row.names = FALSE)
+# En.Yuksek.Sicaklik <- data.frame(c(1:length(En.Yuksek.Sicaklik[,1])), En.Yuksek.Sicaklik)
+# colnames(En.Yuksek.Sicaklik) <- c("ID", colnames(En.Yuksek.Sicaklik)[2:length(En.Yuksek.Sicaklik)])
+# write.csv(En.Yuksek.Sicaklik, "data/En.Yuksek.Sicaklik.csv", row.names = FALSE)
+# 
+# En.Dusuk.Sicaklik <- data.frame(c(1:length(En.Dusuk.Sicaklik[,1])), En.Dusuk.Sicaklik)
+# colnames(En.Dusuk.Sicaklik) <- c("ID", colnames(En.Dusuk.Sicaklik)[2:length(En.Dusuk.Sicaklik)])
+# write.csv(En.Dusuk.Sicaklik, "data/En.Dusuk.Sicaklik.csv", row.names = FALSE)
 
 ##################################################
+
+# GGPLOT2
+require(ggplot2)
+
+data <- read.csv("data/En.Dusuk.Sicaklik.csv")
+data <- data[2,][c(2:14)]
+data <- as.data.frame(t(data))
+
+colnames(data) <- c("Deger")
+x <- factor(rownames(data), levels = rownames(data))
+bar <- ggplot(data=data, aes(x=x,y=Deger))
+bar + geom_bar(stat="identity")

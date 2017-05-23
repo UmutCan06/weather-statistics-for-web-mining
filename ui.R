@@ -6,8 +6,8 @@ vars <- c(
   "Ortalama En Yüksek Sıcaklık" = "Ort.En.Yuksek.Sicaklik.csv",
   "Ortalama Güneşlenme Süresi (saat)" = "Ort.Guneslenme.Suresi.csv",
   "Ortalama Yağışlı Gün Sayısı" = "Ort.Yagisli.Gun.Sayisi.csv",
-  "En Düşük Sıcaklık" = "En.Dusuk.Sicaklik.csv",
-  "En Yüksek Sıcaklık" = "En.Yuksek.Sicaklik.csv",
+#   "En Düşük Sıcaklık" = "En.Dusuk.Sicaklik.csv",
+#   "En Yüksek Sıcaklık" = "En.Yuksek.Sicaklik.csv",
   "Aylık Toplam Yağış Miktarı Ortalaması" = "Aylik.Toplam.Yagis.Mik.Ort.csv"
 )
 
@@ -37,7 +37,8 @@ fluidPage(
   
   mainPanel(
     textOutput(outputId = "outputFor"),
-    tableOutput(outputId = "outputTable")
+    tableOutput(outputId = "outputTable"),
+    plotOutput(outputId = "outputPlot")
     # dataTableOutput("outputTable")
   )
 )

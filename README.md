@@ -7,7 +7,7 @@ This project contains data from https://www.mgm.gov.tr/veridegerlendirme/il-ve-i
 * [x] Data Gathering
 * [x] Data Manipulation
 * [x] Data Storing (Now .csv, but it could be sqlite)
-* [ ] Data Representation (with shiny app)
+* [x] Data Representation (with shiny app)
 
 ## Team Members
 
